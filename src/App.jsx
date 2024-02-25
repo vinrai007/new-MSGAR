@@ -11,7 +11,7 @@ import './App.css';
 
 
 function App() {
-  axios.defaults.baseURL = 'http://vchat-back.onrender.com';
+  axios.defaults.baseURL = 'https://vchat-back.onrender.com';
   // axios.defaults.baseURL = 'https://vchat-backend-cs72.onrender.com';
   axios.defaults.withCredentials = true;
 
